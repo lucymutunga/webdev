@@ -1,9 +1,13 @@
+body {
+  width: 100%;
+  box-sizing: border-box;
+}
 form {
   width:550px;
   
 }
 #my-button {
-  background-color: greenyellow;
+  background-color:#C9E9D0;
   color:white;
   display:block;
   width: 100%;
@@ -15,21 +19,24 @@ form {
 }
 h1 {
   font-weight: 10;
-  text-align: left;
+  text-align: center;
 }
 h5 {
   font-weight: 80;
-  text-align: left;
+  text-align: center;
 }
 .main-container {
  width: 550px;
+ margin: 200px auto;
 
 }
 .signup-container {
     background-color:#eaf1e5;
-    text-align: left;
+    text-align: center;
     padding: 30px 15px;
-    
+    width: 100%;
+    width: 550px;
+    margin: 0 auto;
 }
 .signup-container label{
     display: block;
@@ -40,16 +47,26 @@ h5 {
     
 }
 .signup-container input{
-    width:100%;
+    width: 500px;
     padding:10px 20px;
     border-radius: 5px;
     display: block;
 }
+
+
 #check{
-    display: block;
-}
-#check{
-    display: inline !important;
+    display: inline ;
     text-align: left;
-    width:fit-content;
+    width:20px;
+    margin-left:20px;
+}
+p{
+  font-size: 13px;
+  text-align: left;
+}
+#learn{
+text-align: left;
+}
+h5{
+  text-align: left;
 }
