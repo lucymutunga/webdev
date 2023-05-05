@@ -12,10 +12,11 @@ form {
   display:block;
   width: 100%;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 5px;
   padding:5px;
   font-size: 14px;
   margin-top: 10px;
+  border: none;
 }
 h1 {
   font-weight: 10;
@@ -33,19 +34,19 @@ h6 {
 
 }
 .signup-container {
-    background-color:#eaf1e5;
-    text-align: center;
-    padding: 30px 15px;
-    width: 100%;
+    background-color:white;
+    /* text-align: center; */
+    /* padding: 30px 15px; */
+    /* width: 100%;/ */
     width: 550px;
     margin: 0 auto;
 }
 .signup-container label{
     display: block;
     text-align: left;
-    width:100px;
-    margin-bottom: 10px;
-    padding:10px ;
+    /* width:100px; */
+    margin-bottom:5px;
+    padding:5px ;
     
 }
 .signup-container input{
@@ -56,11 +57,21 @@ h6 {
 }
 
 
-#check{
+#checkinput {
     display: inline ;
     text-align: left;
-    width:20px;
-    margin-left:20px;
+    width: fit-content;
+    
+}
+
+
+  
+
+#checklabel{
+  text-align:left;
+  /* margin-left: left; */
+  width: 100px;
+  display:inline;
 }
 p{
   font-size: 13px;
