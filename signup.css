@@ -20,10 +20,12 @@ form {
 h1 {
   font-weight: 10;
   text-align: center;
+  
 }
-h5 {
-  font-weight: 80;
+h6 {
+  font-weight: 50;
   text-align: center;
+  font-size: 14px;
 }
 .main-container {
  width: 550px;
